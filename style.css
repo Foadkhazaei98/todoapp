@@ -1,0 +1,150 @@
+.parent {
+    display: flex;
+    position: relative;
+    background-color: silver;
+    justify-content: center;
+
+}
+
+.container {
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.header {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+
+.inpt {
+    border-style: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 130px;
+    margin-right: 20px;
+}
+
+.task-btn {
+    background-color: #FFA500;
+    padding: 7px;
+    border-radius: 6px;
+    border-style: double;
+    opacity: 0.8;
+    border-color: #FFA500;
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    display: inline-block;
+
+}
+
+.save-btn {
+    background-color: blue;
+    padding: 7px;
+    border-radius: 6px;
+    border-style: double;
+    opacity: 0.5;
+    border-color: blue;
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: 0.4s;
+    display: inline-block;
+
+
+}
+
+
+.table-content {
+    padding: 15px;
+
+
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border-style: double;
+    opacity: 0.8;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: red;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: 0.4s;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.btn-finished {
+    background-color: forestgreen;
+    color: white;
+    border-radius: 6px;
+    border-style: double;
+    opacity: 0.8;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: forestgreen;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: 0.4s;
+    display: inline-block;
+
+}
+
+.btn-finished:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btn-delete {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+
+.save-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.task-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 45px;
+    margin-top: 25px;
+    font-family: serif;
+}
+
+td,
+th {
+    border-bottom: 1px solid gray;
+    padding: 25px;
+}

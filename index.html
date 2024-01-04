@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="parent">
+    <div class="container">
+        <h1 class="header">To Do App</h1>
+        <div class="column">
+            <div class="row">
+                <input class="inpt" type="text" id="task" name="task" placeholder="Enter a task here">
+                <button class="save-btn" type="submit">SAVE</button>
+                <button class="task-btn" type="submit">GET TASKS</button>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <th class="table-content">No.</th>
+                        <th class="table-content">Todo item</th>
+                        <th class="table-content">Status</th>
+                        <th class="table-content">Actions</th>
+                    </tr>
+                    <tr>
+                        <td class="table-content">1</td>
+                        <td class="table-content">Buy groceries for next week</td>
+                        <td class="table-content">In progress</td>
+                        <td><button class="btn-delete" id="delete" name="delete">DELETE</button>
+                            <button class="btn-finished" id="finished" name="finished">FINISHED</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">2</td>
+                        <td class="table-content">Renew car insurance</td>
+                        <td class="table-content">In progress</td>
+                        <td><button class="btn-delete" id="delete" name="delete">DELETE</button>
+                            <button class="btn-finished" id="finished" name="finished">FINISHED</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">3</td>
+                        <td class="table-content">sign up for online course </td>
+                        <td class="table-content">In progress </td>
+                        <td><button class="btn-delete" id="delete" name="delete">DELETE</button>
+                            <button class="btn-finished" id="finished" name="finished">FINISHED</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
